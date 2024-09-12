@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria Respuestas</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+</head>
+
+<body>
+    <h1><strong><u>Tp-N6 CSS</u></strong></h1>
+    <h2><strong>Preguntas:</strong></h2>
+    <p>1.1- ¿Qué significa CSS?</p>
+    <p>1.2- ¿Para qué sirve el CSS? ¿Qué programa se utiliza para interpretar el CSS? </p>
+    <p>1.3- ¿A qué se llama regla de CSS?</p>
+    <p>1.4- ¿Cuál es la anatomía de la regla de CSS? Agregar imagen explicativa y utilizando una lista descriptiva
+        explicar sus elementos.</p>
+    <p>1.5- ¿Qué es un selector en CSS?</p>
+    <p>1.6- Identificar y definir los selectores: de ID, de clases, universal, de etiquetas, descendente. </p>
+    <p>
+        1.7- Explicar brevemente utilizando una lista ordenada: ¿cómo funciona el CSS? </p>
+    <p>
+        1.8- ¿Cuáles son las tres formas para vincular CSS con HTML?
+    </p>
+    <p>1.9- Ingrese al sitio CSS Zen Garden http://www.csszengarden.com y analicemos el código HTML siguiendo los
+        siguientes pasos:
+        Hacer clic en View All Designs
+        Elegir dos diseños y abrirlo en pestañas distintas
+        En el primer diseño presiona ctrl+u (esta combinación de teclas permite ver el código HTML en el navegador)
+        En el segundo diseño presiona ctrl+u (esta combinación de teclas permite ver el código HTML en el navegador)
+        Escribir la URL de los dos diseños seleccionados y responder: las etiquetas dentro de body ¿son iguales? ¿Qué es
+        lo distinto? ¿Qué contribuye al cambio de diseño?
+        Abrir los dos archivos CSS de los diseños seleccionados. ¿Son los mismos?
+        En líneas generales, el mismo HTML ¿puede tener diferentes diseños?
+    </p>
+    <p>2.0- Utilizaremos las siguientes propiedades de CSS. Completar la columna de valores posibles para cada
+        propiedad.
+    </p>
+    <p>2.1- Crea un archivo HTML con la estructura básica de una página web, agregar como título “Práctica de CSS”. Crea un
+        encabezado de página con el mismo título, agrega un subtítulo con tu Nombre y Apellido.
+    </p>
+    <p>2.2- Crea una hoja de estilos CSS y vincularla a tu archivo HTML:
+        Crea un archivo nuevo en el mismo directorio que tu archivo HTML. Debe llamarse estilos.css
+        En este punto aprenderás cómo agregar un comentario en un CSS. Dentro del archivo creado, escribe el siguiente
+        código para la estructura básica de tu hoja de estilos CSS:
+    </p>
+    <p>2.3- Utiliza selectores por etiquetas para aplicar estilos a las etiquetas HTML, como el tamaño de fuente, el
+        color de fondo y el color del texto:
+        Utiliza el selector body para aplicar estilos al cuerpo de la página, como el color de fondo y el tamaño de
+        fuente.
+    </p>
+    <p>
+        2.4- En este punto aprenderás a utilizar selectores por clase para aplicar estilos a elementos específicos de la
+        página, como los encabezados, los párrafos, las imágenes, botones, etc:
+        Agrega una clase encabezado a tu encabezado de la página para aplicar estilos específicos a ese elemento.
+    </p>
+    <p>2.5- Ahora aprenderás a utilizar el selectores por ID para aplicar estilos a elementos únicos de la página, como
+        una imagen de fondo o un menú desplegable:
+        Agrega un ID fondo a tu cuerpo de la página para aplicar un fondo específico a toda la página.
+    </p>
+    <p>2.6- Utiliza selectores descendentes para aplicar estilos a elementos dentro de otros elementos, como un enlace
+        dentro de un párrafo:
+        Agrega un enlace a un párrafo en tu página.
+    </p>
+
+    <h2><strong>Respuestas:</strong></h2>
+    <p>1.1 Cascading style sheets</p>
+    <p>1.2 CSS es usado para programar el front end de na pagina incluye todo lo entetico e algunas cosas interactivas,
+        el programa que se usa para intrpretar CSS es el navegador web</p>
+    <p>1.3 Una regla css se compone de uno o más selectores seguidos de una declaración que consta de una o más parejas
+        de propiedad y valor</p>
+    <P>1.4 <br><img src="css-anatomia-partes.jpg.png" alt="anatomia css"></P>
+    <p>1.5 En CSS los selectores se utilizan para delimitar los elementos HTML de nuestra página web a los que queremos
+        aplicar estilo</p>
+    <p>1.6 <strong>universal:</strong>Nos permite aplicar estilos a todos los elementos HTML de un documento y se indica
+        mediante el *
+        <br><strong>selector de etiquetas:</strong>Aplicamos propiedades CSS a una etiqueta. La misma se identifica sin
+        utilizar (>) (<). <br> <strong>decendente:</strong>Con este selector seleccionamos un elemento que está dentro
+            de otro del mismo tipo. Estos
+            seectores siempre están formados por dos o más selectores separados entre si. El último selector será el
+            elemento HTML al que se le aplicará las propiedades de CSS. <br> <strong>selectores de clases:</strong> Los
+            selectores de
+            clases comienzan siempre por un . (punto). Los clientes web (navegadores) identifican este punto y lo
+            distinguen del resto de los selectores. <br> <strong>selectores ID:</strong>Este tipo de selector es igual
+            al de clase,
+            aunque lo aplicaremos a un único elemento HTML de nuestra página. Esto se debe a que el atributo ID de HTML
+            identifica a un elemento HTML por medio de un nombre
+    </p>
+    <p>1.7</p>
+    <ol>
+        <li>el navegador carga el HTML (por ejemplo, lo recibe de la red).</li>
+        <li>Convierte el HTML en un DOM (Modelo de objetos del documento). El DOM representa el documento en la memoria
+            del ordenador. Lo explicaremos más detalladamente en la sección siguiente.</li>
+        <li>entonces, el navegador va a buscar la mayor parte de los recursos vinculados al documento HTML, como las
+            imágenes y los videos incrustados... ¡y también el CSS vinculado! JavaScript aparece un poco más adelante en
+            el proceso, pero no vamos a hablar de ello aún para evitar complicar las cosas.</li>
+        <li>El navegador analiza el CSS y ordena en diferentes «cubos» las diferentes reglas según el tipo de selector.
+            Por ejemplo, elemento, clase, ID, y así sucesivamente. Para cada tipo de selector que encuentre, calcula qué
+            reglas deben aplicarse y a qué nodos en el DOM se les aplica el estilo según corresponda (este paso
+            intermedio se llama árbol de renderización).</li>
+        <li>El árbol de renderización presenta la estructura en que los nodos deben aparecer después de aplicarle las
+            reglas.</li>
+        <li>En la pantalla se muestra el aspecto visual de la página (esta etapa se llama pintura).</li>
+        <li>un grafico de esto se veria asi: <br><img src="rendering.jpg.svg" alt="grafico de css"></li>
+    </ol>
+    <p>1.8 Hay tres maneras de vincular una hoja de estilo CSS a un documento HTML:
+
+        <br><br>Incluir la regla de enlace en el elemento HEAD del documento HTML.
+        <br><br>Utilizar un atributo de estilo o (style) en el elemento HTML para especificar los estilos de esa clase o
+        contenedor.
+        <br><br>Vincula tu hoja de estilos CSS utilizando @import.
+    </p>
+    <p>
+        1.9 estos dos tipos de codigo que estan dentro de body no son iguales ya que usan distribuciones y etiquetas
+        distintas, al abrir los 2 archivos CSS vemos que no son iguales pues cada uno tiene sus colores, imagenes,etc.
+        El mismo HTML puede tener distintos diseños? si pues el html no es el que controla el diseño de la pagina sino
+        el que lo hace es CSS
+    </p>
+    <p>2.0</p>
+    <table>
+        <th>
+            <tr>
+                <td>propiedad</td>
+                <td>descripcion</td>
+                <td>color</td>
+            </tr>
+        </th>
+        <tr>
+            <td>color</td>
+            <td>define un color</td>
+            <td>black, green, white, etc</td>
+        </tr>
+        <tr>
+            <td>background-color</td>
+            <td>define el color de fondo de un elemento</td>
+            <td>blue, red, black, etc</td>
+        </tr>
+        <tr>
+            <TD>front-size</TD>
+            <td>Define el tamaño de la fuente del texto.</td>
+            <td>10em,20em,5em</td>
+        </tr>
+        <tr>
+            <td>font-weight</td>
+            <td>Define el grosor de la fuente del texto (por ejemplo, si se trata de texto en negrita o normal).</td>
+            <td>100-900-200</td>
+        </tr>
+        <tr>
+            <td>font-style</td>
+            <td>Define el estilo de la fuente del texto (por ejemplo, si es cursiva o normal)</td>
+            <td>cursiva, mayuscula, etc</td>
+        </tr>
+        <tr>
+            <td>font-family</td>
+            <td>Define el tipo de letra a utilizar para el texto.</td>
+            <td>sans-serif, lucida sans, etc</td>
+        </tr>
+        <tr>
+            <td>text-align</td>
+            <td>Define la alineación horizontal del texto (izquierda, centro o derecha)</td>
+            <td>center, left, right, etc</td>
+        </tr>
+    </table>
+    <p>2.1 <a href="punto 2-1.html"></a></p>
+    <p>2.2.
+          p {
+            background-color: #f2f2f2;  
+            font-size: 16px;
+        }
+    {  
+            font-size: 36px;  
+            color: #333;
+            }
+        
+    </p>
+</body>
+
+</html>
