@@ -1,0 +1,96 @@
+body {
+    background-image: url(12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+}
+
+.encabezado {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.parrafo {
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 36px;
+    color: white;
+}
+
+.texto {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+}
+
+main {
+    background-image: url(isacc3.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+.table {
+background-color: rgb(59, 34, 34);
+border-color:rgb(54, 13, 13);
+
+}
+td {
+    text-align: center;
+    color: white;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+  .td {
+    text-align: center;
+    color: white;
+}
+th {
+  color: white;
+}
+p {
+  color: white;
+  text-align: center;
+}
+footer{
+  background-image: url(footer.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
